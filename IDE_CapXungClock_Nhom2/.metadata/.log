@@ -94,3 +94,39 @@ Caused by: org.eclipse.core.internal.resources.ResourceException: Invalid projec
 	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.createOrImportProject(SmartImportJob.java:594)
 	at org.eclipse.ui.internal.wizards.datatransfer.SmartImportJob.toExistingOrNewProject(SmartImportJob.java:542)
 	... 2 more
+!SESSION 2026-03-30 12:36:52.037 -----------------------------------------------
+eclipse.buildId=Version 2.1.1
+java.version=21.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data H:\TTCS\BUOI2NHOM2\IDE_CapXungClock_Nhom2
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2026-03-30 12:36:55.772
+!MESSAGE Log4j2 initialized with config file H:\TTCS\BUOI2NHOM2\IDE_CapXungClock_Nhom2\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.core.net 1 0 2026-03-30 12:36:57.395
+!MESSAGE System property http.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2026-03-30 12:36:57.395
+!MESSAGE System property http.proxyPort is set to 62976 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2026-03-30 12:36:57.396
+!MESSAGE System property https.proxyHost is set to 127.0.0.1 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2026-03-30 12:36:57.396
+!MESSAGE System property https.proxyPort is set to 62976 but should not be set.
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2026-03-30 12:36:58.683
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-03-30 12:37:05.809
+!MESSAGE Executed PowerShell command powershell.exe -Command "Get-CimInstance -ClassName Win32_SerialPort | Select-Object -ExpandProperty DeviceID":
+COM11
+COM10
+
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-03-30 12:37:05.810
+!MESSAGE port: COM11
+
+!ENTRY com.st.stm32cube.ide.mpu.remote.serial 1 1 2026-03-30 12:37:05.810
+!MESSAGE port: COM10
